@@ -5,7 +5,7 @@ def openFile():
     print('This file is already opened!')
 
 def saveFile():
-    print("This file is saved!!")
+    print("This files are saved!!")
 
 def cut():
     print("You cut some text!!")
