@@ -1,0 +1,15 @@
+<div class= "border-bottom row" style= "margin-bottom: 16px; padding-bottom:8px;">
+  
+  <div class="col-9">  
+      <h4 style ="color: rgb(255.255.0);">{{ job['type'] }}</h4> <!-- Highlight: Display job type -->
+      <b>Location:</b> {{ job['location'] }} <!-- Highlight: Display job location -->   
+  
+      {% if 'Salary' in job %}
+      <div style= "margin-bottom: 16px;">
+      <b>Salary:</b> {{ job['Salary'] }} <!-- Highlight:Display salary -->       </div>
+      {% endif %}
+  </div>
+  <div class="col-3">
+    <button type="button" class="btn btn-outline-primary"> Apply</button>
+  </div>
+</div>
